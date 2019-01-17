@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_house_control"
+            android:icon="@drawable/ic_orders_black_24dp"
+            android:title="House Control" />
+        <item
+            android:id="@+id/nav_other_members"
+            android:icon="@drawable/ic_members_us_24dp"
+            android:title="Other Members" />
+
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@drawable/ic_person_pin_circle_black_24dp"
+            android:title="Locations" />
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="Emergency Contacts" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_about_us"
+                    android:icon="@drawable/ic_members_us_24dp"
+                    android:title="About Project" />
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_login_black_24dp"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/nav_signup"
+                    android:icon="@drawable/ic_signup_black_24dp"
+                    android:title="Add Member" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout_black_24dp"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

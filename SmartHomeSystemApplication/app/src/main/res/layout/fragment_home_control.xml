@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeControlFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/contentBanglaLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:id="@+id/titleBanglaLayout"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="100dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/application_title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Device Status"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:background="@color/colorPrimary"
+                    android:src="@drawable/bulb_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Bulb Drawing One"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Turned on."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:background="@color/colorRedLight"
+                    android:src="@drawable/ac_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="AC Drawing One"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Turned off."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:background="@color/colorPrimary"
+                    android:src="@drawable/fan_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Fan Drawing One"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Turned on."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:background="@color/colorRedLight"
+                    android:src="@drawable/bulb_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Bulb Bed One"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Turned Off."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:background="@color/colorRedLight"
+                    android:src="@drawable/fan_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Fan Bed One"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Turned off."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="100dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:background="@color/colorPrimary"
+                    android:src="@drawable/bulb_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/application_title"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Register a new member."
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

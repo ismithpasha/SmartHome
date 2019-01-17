@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:text="Sign in"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"/>
+    <EditText
+        android:id="@+id/emailEditText"
+        android:hint="Email:"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+        android:layout_margin="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:layout_margin="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="20dip"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

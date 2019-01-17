@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dip"
+    android:background="@color/colorWhite"
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".6">
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:id="@+id/titleLayout"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_margin="2dip"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/home_company_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/application_title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/home_company_moto_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/application_moto"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:id="@+id/menuLayout"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_margin="2dip"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1">
+
+            <ImageView
+                android:background="@color/colorPrimary"
+                android:id="@+id/home_control_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="3dip"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/home_dashboard_tv"
+                android:layout_margin="3dip"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="House Control"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:id="@+id/orderLayout"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_margin="2dip"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1">
+
+            <ImageView
+                android:background="@color/colorPrimary"
+                android:id="@+id/locationsImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="3dip"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/home_location_tv"
+                android:layout_margin="3dip"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Locations"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:id="@+id/aboutusLayout"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_margin="2dip"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1">
+
+            <ImageView
+                android:background="@color/colorPrimary"
+                android:id="@+id/messagesImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="3dip"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/home_about_tv"
+                android:layout_margin="3dip"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Members"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:id="@+id/contactusLayout"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_margin="2dip"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1">
+
+            <ImageView
+                android:background="@color/colorPrimary"
+                android:id="@+id/contactusImage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="3dip"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/home_contactus_tv"
+                android:layout_margin="3dip"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Emergency Contacts"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".2">
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:id="@+id/webLayout"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_margin="2dip"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/application_developed_by"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

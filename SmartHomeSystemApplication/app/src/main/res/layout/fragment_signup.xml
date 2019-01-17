@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.SignupFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/contentBanglaLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:id="@+id/titleBanglaLayout"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="100dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/application_title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Register a new member."
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+
+            android:layout_weight="1">
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Registration"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"/>
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:hint="Name:"
+                android:inputType="textEmailAddress"
+                android:textSize="18sp"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:hint="Email:"
+                android:inputType="textEmailAddress"
+                android:textSize="18sp"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:hint="Temporary password"
+                android:inputType="textPassword"
+                android:textSize="18sp"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/phoneNumberEditText"
+                android:hint="Mobile"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_gravity="center"
+                android:text="Save user"
+                android:textColor="#ffffff"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dip"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

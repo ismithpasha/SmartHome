@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66BB6A</color>
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#00E676</color>
+
+    <!--=======================  TEXT COLORs ==========================   -->
+    <color name="colorTextBlack">#3b3c3d</color>
+    <color name="colorTextBlackBlur">#a63b3c3d</color>
+    <color name="colorTextHint">#40C4FF</color>
+    <color name="colorTextPrimary">#37474F</color>
+    <color name="colorTextDarkBlue">#154d69</color>
+    <color name="colorTextPrimaryBlue">#0b638e</color>
+    <color name="colorOrange">#FB6648</color>
+    <color name="colorPaste">#0ECEAB</color>
+
+    <!--<color name="colorLemon">#B2FF59</color>-->
+    <color name="colorLemon">#00E676</color>
+    <color name="colorYellowTrans">#53d4fff9</color>
+    <!--<color name="colorTextPrimaryOld">#027d39</color>-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#e7d70303</color>
+    <color name="colorRedLight">#e7ff6e6b</color>
+    <color name="colorDeepGreen">#1B5E20</color>
+    <color name="colorBlueLight">#00adef</color>
+    <color name="colorBgnd">#b4f0a0</color>
+    <color name="colorYellowDeep">#FFCA28</color>
+    <color name="colorYellowLight">#FFEE58</color>
+
+    <!--=======================  BUTTON COLORs ==========================   -->
+
+    <color name="buttonColor">#607D8B</color>
+    <color name="buttonGreenColor">#01BFA5</color>
+    <color name="buttonRedColor">#ff636b</color>
+    <color name="buttonRippleColor">#8d9b93</color>
+    <color name="cancelButtonColor">#950a0a</color>
+    <color name="cancelButtonRippleColor">#ff636b</color>
+    <color name="generalButtonTextColor">#FFFFFF</color>
+    <color name="dialogButtonColor">#FFFFFF</color>
+
+
+    <color name="view_background">#e8ecfa</color>
+    <color name="btn_bg">#277bec</color>
+    <color name="white">#ffffff</color>
+    <color name="txt_font">#4e5572</color>
+    <color name="action_bar">#1f2649</color>
+
+    <!--  Dashboard Color -->
+    <color name="dbColorOne">#01BFA5</color>
+    <color name="dbColorTwo">#7D4EFF</color>
+    <color name="dbColorThree">#FFB301</color>
+    <color name="dbColorFour">#FE104E</color>
+    <color name="dbColorFive">#297FB9</color>
+    <color name="dbColorSix">#A56ABE</color>
+    <!-- List View Colors-->
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_divider">#d9d9d9</color>
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iot_fragments.DeviceListFragment">
+
+    <LinearLayout
+        android:background="@drawable/shadow"
+        android:id="@+id/titleBanglaLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Connect Bluetooth"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Paired Devices"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/shadow"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/bluetooth_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:listSelector="@drawable/list_row_selector" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Devices"
+            android:layout_gravity="center"
+            android:layout_margin="5dip"
+            android:paddingTop="4dip"
+            android:paddingBottom="4dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:id="@+id/findButton"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+</LinearLayout>

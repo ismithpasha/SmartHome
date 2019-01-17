@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Smart Home </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Smart Home System</string>
+    <string name="nav_header_subtitle">CSE201702011</string>
+    <string name="nav_header_desc">Ismith Pasha</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="FCM_Pref">com.smarthomesystem.ju.smarthomesystemapplicationfcm_pref</string>
+    <string name="FCM_Token">com.smarthomesystem.ju.smarthomesystemapplication.fcm_token</string>
+
+    <string name="application_title">Smart Home</string>
+    <string name="application_moto">An IoT based application.</string>
+    <string name="application_developed_by">Ismith Pasha - CSE 201702011</string>
+
+    <string name="text_about_us">
+        "IoT based Smart Home System using Mobile Application" is - \n
+        A project Submitted to the Computer Science and Engineering Department, Jahangirnagar University In partial fulfillment of the requirements for the award of the degree of Master of Science (MSc.) in Computer Science.
+        </string>
+    <string name="text_abstract">
+    “IoT based Smart Home System using Mobile Application” is based on IoT and Android platform. With this application anyone can control the electronics devices of his/her home from anywhere. A person can easily monitor the current status of electronic devices with his mobile phone using this application. He/she can turn on or turn off devices easily when it needs. The application can also track the locations of every person update it in real time. Every family members can know each other’s location using this application. It will play a very important role for security when a user is outside from home. Emergency contact numbers, emails such as hospitals, police stations etc. will be included with this application which may become very useful in emergency situations. This report provides the detailed description about the features and development process of the application.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Map-->
+    <!--<string name="map_api_key">AIzaSyDur8qlj9H4LWLCNUc9OYUd36C3-Zj9JZA</string>-->
+    <string name="map_api_key">AIzaSyCyY8DUwPn-dvaS11Z7HzMJH2ChShWhpa8</string>
+    <string name="tracking_enabled_notif">Tracking is currently enabled. Tap to cancel.</string>
+    <string name="test_email">ismith@gmail.com</string>
+    <string name="test_password">123456</string>
+    <string name="firebase_path">smarthomesystemapplication</string>
+
+</resources>

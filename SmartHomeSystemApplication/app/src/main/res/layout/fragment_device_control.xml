@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dip"
+    tools:context=".iot_fragments.DeviceControlFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:background="@drawable/shadow"
+        android:id="@+id/titleBanglaLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Devices"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Turn devices on/off"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/shadow"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="110dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="110dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="110dip"
+                    android:layout_height="110dip"
+                    android:background="@color/colorYellowDeep"
+                    android:src="@drawable/bulb_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="110dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Light One"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/lightOneTurnOnBtn"
+                            android:text="ON"
+                            android:textColor="@color/white"
+                            android:background="@color/buttonGreenColor"
+                            android:layout_margin="5dip"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/lightOneTurnOffBtn"
+                            android:text="OFF"
+                            android:textColor="@color/white"
+                            android:background="@color/colorRedLight"
+                            android:layout_margin="5dip"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="110dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="110dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="110dip"
+                    android:layout_height="110dip"
+                    android:background="@color/colorYellowDeep"
+                    android:src="@drawable/bulb_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="110dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Light Two"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/lightTwoTurnOnBtn"
+                            android:text="ON"
+                            android:textColor="@color/white"
+                            android:background="@color/buttonGreenColor"
+                            android:layout_margin="5dip"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/lightTwoTurnOffBtn"
+                            android:text="OFF"
+                            android:textColor="@color/white"
+                            android:background="@color/colorRedLight"
+                            android:layout_margin="5dip"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="110dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="110dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="110dip"
+                    android:layout_height="110dip"
+                    android:background="@color/colorYellowDeep"
+                    android:src="@drawable/fan_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="110dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Fan"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/fanTurnOnBtn"
+                            android:text="ON"
+                            android:textColor="@color/white"
+                            android:background="@color/buttonGreenColor"
+                            android:layout_margin="5dip"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/fanTurnOffBtn"
+                            android:text="OFF"
+                            android:textColor="@color/white"
+                            android:background="@color/colorRedLight"
+                            android:layout_margin="5dip"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/shadow"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="110dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+
+            <LinearLayout
+                android:background="@drawable/shadow"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="110dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop">
+
+                <ImageView
+                    android:layout_width="110dip"
+                    android:layout_height="110dip"
+                    android:background="@color/colorYellowDeep"
+                    android:src="@drawable/ac_icon"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="110dip"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="AC"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/acTurnOnBtn"
+                            android:text="ON"
+                            android:textColor="@color/white"
+                            android:background="@color/buttonGreenColor"
+                            android:layout_margin="5dip"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/acTurnOffBtn"
+                            android:text="OFF"
+                            android:textColor="@color/white"
+                            android:background="@color/colorRedLight"
+                            android:layout_margin="5dip"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
