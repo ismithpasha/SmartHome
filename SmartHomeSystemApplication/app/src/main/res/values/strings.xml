@@ -30,7 +30,7 @@
 
     <!--Map-->
  
-    <string name="map_api_key">AIzaSyCyY8DUwPn-dvaS11Z7HzMJH2ChShWhpa8</string>
+    <string name="map_api_key">xxxxxxxxxx Your API Key Here xxxxxxxxxxx</string>
     <string name="tracking_enabled_notif">Tracking is currently enabled. Tap to cancel.</string>
     <string name="test_email">ismith@gmail.com</string>
     <string name="test_password">123456</string>
